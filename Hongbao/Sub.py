@@ -100,7 +100,7 @@ def send_single_product_to_single_qun(product_dict, win_hwnd, pic_st, text_st):
             time.sleep(pic_st)
 
     # 发送buy key
-    if len(product_dict['product_buy_key']) > 0
+    if len(product_dict['product_buy_key']) > 0:
         send_qq_hwnd_click_string(win_hwnd, product_dict['product_buy_key'])
         time.sleep(text_st)
 
